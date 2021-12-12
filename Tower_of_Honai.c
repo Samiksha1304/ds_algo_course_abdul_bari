@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int TOH(int n, int A, int B, int C)
+void TOH(int n, int A, int B, int C)
 {
 
     if(n>0)
@@ -15,7 +15,7 @@ int TOH(int n, int A, int B, int C)
 
 int main()
 {
-    int n,r;
+    int n;
     printf("How many discs are there? ");
     scanf("%d",&n);
     TOH(n,1,2,3);
